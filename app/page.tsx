@@ -1839,14 +1839,14 @@ export default function App() {
               <div>
                 <div className="flex flex-wrap items-center gap-2 text-xs font-mono">
                   <span className="px-2 py-0.5 rounded bg-amber-400 text-slate-950 font-extrabold">
-                    초6 필수 & 예비중 브릿지 240단어
+                    2022 교육부 필수 3,000단어
                   </span>
                   <span className="text-sky-300 font-semibold">
-                    Zero-Repeat 무중복 셔플 큐 엔진 가동 중
+                    초등(800) · 중등(1,200) · 고등(1,000) 전수 탑재
                   </span>
                 </div>
                 <h1 className="text-xl sm:text-2xl font-extrabold tracking-tight text-white mt-1">
-                  WORD COMMANDER 6 : 초6 영단어 5종 아케이드 아레나
+                  교육부 필수 3,000단어 아케이드
                 </h1>
               </div>
             </div>
@@ -2923,7 +2923,7 @@ export default function App() {
       )}
 
       {/* =====================================================================
-          TAB 2: 초6 필수 240단어 도감 & 오답 노트 (CODEX & WRONG NOTE)
+          TAB 2: 교육부 필수 3,000단어 도감 & 오답 노트 (CODEX & WRONG NOTE)
          ===================================================================== */}
       {mainTab === 'codex' && (
         <main className="max-w-7xl mx-auto px-4 sm:px-6 py-6 space-y-5">
@@ -2931,7 +2931,7 @@ export default function App() {
             <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4 pb-4 border-b border-slate-200">
               <div>
                 <h2 className="text-lg font-extrabold text-slate-900">
-                  초등 6학년 필수 240단어 마스터 도감 & 오답 노트
+                  교육부 초·중·고 필수 3,000단어 마스터 도감 & 오답 노트
                 </h2>
                 <p className="text-xs text-slate-600 mt-0.5">
                   단어를 클릭하면 원어민 발음(TTS)을 들을 수 있으며, 아직 못 외운 단어는 체크해 오답 노트에 추가할 수 있습니다.
