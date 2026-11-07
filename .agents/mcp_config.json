@@ -1,5 +1,15 @@
 {
   "mcpServers": {
+    "headroom": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "headroom-ai[all]",
+        "headroom",
+        "mcp",
+        "serve"
+      ]
+    },
     "hwpx": {
       "command": "uvx",
       "args": [
@@ -87,4 +97,3 @@
     }
   }
 }
-

@@ -69,3 +69,4 @@ If `headroom` is installed locally as an executable or MCP server:
 - **Commands**:
   - `headroom stats`: View token savings and compression ratio across sessions.
   - `headroom learn`: Learn common context patterns to compress more aggressively over time.
+
