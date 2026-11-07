@@ -1,0 +1,89 @@
+{
+  "mcpServers": {
+    "hwpx": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "git+https://github.com/Kang-T/hwpx-mcp-simple.git",
+        "hwpx-mcp-server"
+      ]
+    },
+    "hwpx-tools": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "git+https://github.com/Kang-T/hwpx-mcp-simple.git",
+        "hwpx-mcp-legacy"
+      ]
+    },
+    "playwright": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@playwright/mcp@latest"
+      ],
+      "disabledTools": [
+        "browser_close",
+        "browser_file_upload",
+        "browser_drop",
+        "browser_navigate_back",
+        "browser_network_requests",
+        "browser_network_request",
+        "browser_run_code_unsafe",
+        "browser_drag",
+        "browser_hover",
+        "browser_tabs"
+      ]
+    },
+    "sequential-thinking": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking"
+      ]
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "./"
+      ]
+    },
+    "notebooklm": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "notebooklm-mcp-cli",
+        "notebooklm-mcp"
+      ],
+      "disabledTools": [
+        "notebook_share_status",
+        "notebook_share_public",
+        "notebook_share_invite",
+        "notebook_share_batch",
+        "notebook_delete",
+        "chat_configure",
+        "notebook_query_start",
+        "notebook_query_status",
+        "notebook_describe",
+        "note",
+        "research_start",
+        "research_status",
+        "research_import",
+        "studio_delete",
+        "batch",
+        "save_auth_tokens",
+        "refresh_auth",
+        "cross_notebook_query",
+        "pipeline",
+        "server_info",
+        "tag",
+        "source_list_drive",
+        "source_sync_drive",
+        "source_get_content",
+        "label"
+      ]
+    }
+  }
+}

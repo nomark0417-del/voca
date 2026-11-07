@@ -81,3 +81,4 @@ You can invoke Superpowers behaviors in any conversation:
 - *"원인 먼저 디버깅해줘 (systematic debugging)"*
 - *"서브에이전트로 분할 작업해줘 (subagent-driven development)"*
 - *"코드 리뷰 및 머지 검증해줘 (code review before finish)"*
+
